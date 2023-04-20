@@ -1,0 +1,48 @@
+<TableContainer component={Paper}>
+    <Table sx={{ minWidth: 700 }} aria-label="update table">
+    <TableHead>
+    <TableRow>
+    <th>Title</th>
+     <th>Image</th>
+     <th>Year - Nation</th>
+     {/* <th>Nation</th> */}
+     <th>Information</th>
+      <th>Clip</th>
+    </TableRow>
+    </TableHead>
+    <TableBody>
+    {filmsList.map((film) => (
+    <TableRow key={film.id}>
+    <TableCell align="center" >
+    <TextInput placeholder={film.title}
+    onChange={(e) => setNewTitle(e.target.value)}/>
+    </TableCell>
+    <TableCell align="center" >
+     <TextInput placeholder={film.image}
+    onChange={(e) => setNewTitle(e.target.value)}/>
+      </TableCell>
+      <TableCell align="center" >
+     <TextInput placeholder={`${film.year}-${film.nation}`}
+    onChange={(e) => setNewTitle(e.target.value)}/>
+      </TableCell>
+      <TableCell align="center" >
+     <TextInput placeholder={film.info} 
+    onChange={(e) => setNewTitle(e.target.value)}/>
+      </TableCell>
+      <TableCell align="center" >
+     <TextInput placeholder={film.clip} 
+    onChange={(e) => setNewTitle(e.target.value)}/>
+      </TableCell>
+   
+    <TableCell>
+    {/* <button onClick={() => history.push(`/edit/${film.id}`)}>Edit</button> */}
+    <Button onClick={() => {
+     setOpen(true);
+    //  setDeleteFilmId(film.id);
+   }}>Update</Button>
+    </TableCell>
+    </TableRow>
+    ))}
+    </TableBody>
+    </Table>
+    </TableContainer>

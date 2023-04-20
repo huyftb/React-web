@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  float: left;
+  margin-left: -20rem;
+}
+
+.textField {
+  margin: 1rem;
+  width: 100%;
+}
+
+.button {
+  margin: 2rem;
+  width: 100%;
+  background-color: #ee6e73;
+}
+
+@media (max-width: 600px) {
+  .form {
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+}

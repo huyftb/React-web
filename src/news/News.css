@@ -1,0 +1,5 @@
+@media (min-width: 900px) {
+  .news-container .MuiGrid-item {
+    flex-basis: 50%;
+  }
+}

@@ -1,0 +1,5 @@
+export const News =[
+    {id: 1, img: 'https://pbs.twimg.com/media/FpjzU3gacAA--Pp?format=jpg&name=large',content:'Trang web chính thức của -Happymare REGRET END- dự kiến phát hành vào ngày 26 tháng 5 đã được phát hànhFHD...', title: 'Thông báo ra mắt Key Visual Novel',date: '21/2/2023', url: 'https://www.purplesoftware.jp/products/hapymaher-re/#movie'},
+    {id: 2, img: 'https://pbs.twimg.com/media/Fqq1-JIacAI5Njf?format=jpg&name=small',content:'"Sousou no Free Len" sẽ được phát sóng từ mùa thu năm 2023. Đồng thời, thông tin về dàn diễn viên và nhân viên cũng được tiết lộ...',title:'Frieren: Beyond Journey EndOfficial Trailer',date:'9/3/2023', url: 'https://frieren-anime.jp/'},
+    {id: 3, img: 'https://rakuspa.com/shangrilafrontier/img/mv-pc.jpg',content:'"Hoạt hình truyền hình của truyện tranh đã đạt được bốn vương miện đầu tiên trong cuộc khảo sát độc giả của "Tạp chí Shonen hàng tuần" trong quá trình xuất bản nhiều kỳ...',title:'Shangri-La Frontier - Official Trailer',date:'12/3/2023', url: 'https://shangrilafrontier.com/'}
+  ];
